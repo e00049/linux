@@ -1,4 +1,4 @@
-# linux
+# Linux
 Linux-Commands-Configuration
 
 # Branches are:
