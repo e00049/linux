@@ -7,3 +7,5 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_
 sed -i 's/PermitRootLogin forced-commands-only/#PermitRootLogin forced-commands-only/g' /etc/ssh/sshd_config
 systemctl restart ssh >/dev/null 2>&1
 systemctl restart sshd >/dev/null 2>&1
+
+
