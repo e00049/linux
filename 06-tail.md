@@ -1,5 +1,5 @@
 # Description:
-    tail - To view the file content 
+    tail - To view the file content from last
 
 # Syntax:
     tail [OPTION]... [FILE]...
