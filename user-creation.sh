@@ -8,6 +8,3 @@ sed -i 's/PermitRootLogin forced-commands-only/#PermitRootLogin forced-commands-
 systemctl restart ssh >/dev/null 2>&1
 systemctl restart sshd >/dev/null 2>&1
 
-
-
-
