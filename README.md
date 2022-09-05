@@ -1,6 +1,6 @@
 # Linux
   Install-Terminal-Live
 
-# : Directories
+# Directories are
 
 # 001-file-handling
