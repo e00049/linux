@@ -1,3 +1,4 @@
-stat - About file or directory 
+grep is a command-line utility for searching plain-text data sets for lines that match a regular expression.
 
-$ stat /etc/passwd 
+$ cat /etc/passwd | grep root
+
