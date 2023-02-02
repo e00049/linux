@@ -1,0 +1,16 @@
+ ---> To Debuging.
+     #!/bin/bash -x PS4='+ $BASH_SOURCE : $LINENO : '  
+
+ ---> To execute the command as e00049 user. 
+    su - e00049 -c 'whoami'  
+
+ ---> User creation on ubuntu: 
+
+  #!/usr/bin/env bash
+
+  sudo useradd -s /bin/bash -d /home/e00049 -m -G sudo e00049
+  sudo echo -e "z\nz" | passwd e00049 > /dev/null 2>&1
+  echo "e00049 ALL=(ALL)      NOPASSWD: ALL" >> /etc/sudoers
+  sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
+  sed -i 's/PermitRootLogin forced-commands-only/#PermitRootLogin forced-commands-only/g' /etc/ssh/sshd_config
+  systemctl restart sshd >/dev/null 2>&1
