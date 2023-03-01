@@ -1,0 +1,6 @@
+Nmap is a utility for network exploration or security auditing. It supports ping scanning (determine which hosts are up), many port scanning techniques, version detection (determine service protocols and application versions listening behind ports), and TCP/IP fingerprinting (remote host OS or device identification).
+
+
+$ nmap 192.168.1.1
+
+List out ports which are opened in this IP address
