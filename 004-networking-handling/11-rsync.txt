@@ -1,0 +1,3 @@
+Rsync, or Remote Sync, is a free command-line tool that lets you transfer files and directories to local and remote destinations. Rsync is used for mirroring, performing backups, or migrating data to other servers.
+
+rsync -zvh backup.tar.gz /tmp/backups/
