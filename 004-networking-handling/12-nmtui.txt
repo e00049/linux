@@ -1,0 +1,3 @@
+nmtui (Network Manager Text User Interface) is a command line tool that used for network configuration on Gnu / Linux systems
+
+$ nmtui
