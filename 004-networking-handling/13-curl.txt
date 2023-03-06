@@ -1,0 +1,3 @@
+Client URL (cURL, pronounced “curl”) is a command line tool that enables data exchange between a device and a server through a terminal.
+
+$ curl www.google.com
