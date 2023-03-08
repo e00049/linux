@@ -1,0 +1,4 @@
+what is sudo for and what does it do? If you prefix “sudo” with any Linux command, it will run that command with elevated privileges.
+Elevated privileges are required to perform certain administrative tasks
+
+$ sudo apt install tree -y
