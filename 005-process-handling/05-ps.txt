@@ -1,0 +1,3 @@
+Process Status - viewing information related with the processes on a system.
+
+$ ps aux | grep docker
