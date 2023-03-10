@@ -1,0 +1,4 @@
+In computing, umask is a command that determines the settings of a mask that controls how file permissions are set for newly created files.
+It may also affect how the file permissions are changed explicitly
+
+$ umask 
