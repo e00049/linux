@@ -1,0 +1,4 @@
+The du (disk usage) command measures the disk space occupied by files or directories. 
+By default, it measures the current directory and all its subdirectories, printing totals in blocks for each, with a grand total at the bottom.
+
+$ du /tmp
