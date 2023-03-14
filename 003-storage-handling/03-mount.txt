@@ -1,0 +1,4 @@
+The mount command allows users to mount, i.e., attach additional child file systems to a particular mount point on the currently accessible file system. 
+The command passes the mount instructions to the kernel, which completes the operation
+
+sudo mount /dev/sdb1 /mnt/media
