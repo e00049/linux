@@ -1,0 +1,3 @@
+The umount command unmounts a previously mounted device, directory, file, or file system. 
+
+$ umount /mnt
