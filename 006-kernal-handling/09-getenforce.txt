@@ -1,0 +1,1 @@
+getenforce - To get to know about SELinux Mode. 
