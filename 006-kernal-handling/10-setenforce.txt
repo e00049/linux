@@ -1,0 +1,3 @@
+setenforce - modify the mode SELinux is running in.
+
+setenfore 0 - To disable the SELinux 
