@@ -1,0 +1,47 @@
+Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds.
+
+
+1. Linux distributions
+	i.  *.deb
+	     ubuntu, mint, kubuntu 
+	ii. *.rpm
+         redhat, centos, fedora    
+	
+2. Linux Directories
+   /bin		-  essential system binaries
+   /sbin	-  system administration binaries
+   /usr     -  user-related programs, libraries
+   /etc		-  configuration files for system and application programs
+   /var		-  variable data like log files
+   /tmp		-  temporary file storage by the system
+   /boot	-  files needed for the system to boot
+   /proc 	-  virtual file system that provides information about the system and processes running on it
+   /home    -  user home directories
+   /root    -  root's directory
+   /mnt 	-  mounting file systems, such as external hard drives
+   /media   -  mount point for removable media devices
+   /dev     -  device files that represent physical and virtual devices
+   /opt     -  installing third-party software applications
+     
+3. Navigation methods
+     An absolute path - "/home/user/documents/projects/report.txt"
+     A relative path  - cd /home; cd user/; cd documents/; cd projects; 
+	  
+4. Command execution flow 
+	command <options> <source> <destination>   - Left to right execution 
+
+5. Man page
+   man <command>
+
+------------------------------------------------------------------------------------
+
+Linux commands can be classified into 6 categories:
+
+1. File Handling
+2. User Handling
+3. storage Handling
+4. Network Handling 
+5. Process Handling
+6. Kernal Handling
+
+-----------------------------------------------------------------------------------
