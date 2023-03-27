@@ -1,0 +1,6 @@
+rsync is a widely-used command-line tool for synchronizing files and directories between different locations. 
+It is available on most Unix-based operating systems, as well as on Windows through third-party implementations.
+
+rsync [options] source destination
+
+rsync -av /path/to/source/ /path/to/destination/
