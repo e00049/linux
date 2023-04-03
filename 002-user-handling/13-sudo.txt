@@ -1,0 +1,4 @@
+sudo is a program for Unix-like computer operating systems that enables users to run programs with the security privileges of another user, 
+by default the superuser.
+
+$ sudo apt install <application_name>
