@@ -54,7 +54,7 @@ Linux commands can be classified into 6 categories:
 	006. Resources Handling
 
 
---> 001. Linux file Handling commands: ~~~ 
+---> 001. Linux file Handling commands: ~~~ 
 
 01. touch    - That allows you to update the access and modification times of files or create new empty files.
 02. cat      - cat is a command-line utility that is used to concatenate and display the contents of files.
@@ -108,7 +108,7 @@ Linux commands can be classified into 6 categories:
 20. finger     - Used to display information about a user or a group of users on the system.
 
 
-     003: Storage Handling Commands in Linux: 
+ ---> 003: Storage Handling Commands in Linux: 
 
 01. du (disk usage)  -  To display the disk usage of a directory.          
 02. df (disk free)   -  To display the amount of free space on the disk.
@@ -132,7 +132,7 @@ Linux commands can be classified into 6 categories:
 20. setenforce       -  Used to change the current SELinux mode.
 
 
-      004: Network Handling Commands in Linux:
+ ---> 004: Network Handling Commands in Linux:
 
 01. ip          - Command displays the current network interfaces and their associated IP addresses.
 02. ping        - It is used to test the connectivity between two hosts on a network.
@@ -156,7 +156,7 @@ Linux commands can be classified into 6 categories:
 20. tracepath   - Discover the route a packet takes to reach a network host or server.
 
 
-     005: Process Handling Commands in Linux:
+ ---> 005: Process Handling Commands in Linux:
 
 01. ps          - Display information about currently running processes on the system.
 02. top         - For system administrators and developers who need to monitor the performance of a Linux system.
@@ -172,8 +172,7 @@ Linux commands can be classified into 6 categories:
 12. at          - that allows users to schedule the execution of a command or script at a specified time in the future.
 13. exec
 
-
-    006: Resource Handling commands in Linux:
+--->  006: Resource Handling commands in Linux:
 
 01. alias       - In Linux, the alias command is used to create a shorthand name for a command or a series of commands.
 02. history     - Command is used to display a list of previously executed commands in the current shell session. 
