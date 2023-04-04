@@ -13,7 +13,7 @@
 
 -------------------------------------------------------------------------------------------------------
 
----> 001. LINUX DISTRIBUTIONS ~~~~
+---> 001. LINUX DISTRIBUTIONS 
  
  Debian-based distributions     - .deb    -  Ubuntu, Linux Mint, and Debian itself.
  Red Hat-based distributions    - .rpm    -  CentOS, Fedora, and Red Hat Enterprise Linux (RHEL).
@@ -24,7 +24,7 @@
  Independent distributions      - own pkg -  Solus, Puppy Linux, and Gentoox.
 
 
----> 002. LINUX DIRECTORIES ~~~~~
+---> 002. LINUX DIRECTORIES 
  
  01. /bin     -  Essential system binaries
  02. /sbin    -  System administration binaries
@@ -41,16 +41,16 @@
  13. /dev     -  Device files that represent physical and virtual devices
  14. /opt     -  Installing third-party software applications
      
----> 003. NAVIGATION METHODS ~~~~~
+---> 003. NAVIGATION METHODS 
  
  An absolute path - "/home/user/documents/projects/report.txt"
  A relative path  - cd /home; cd user/; cd documents/; cd projects; 
 	  
----> 004. COMMAND EXECUTION FLOW ~~~~~
+---> 004. COMMAND EXECUTION FLOW 
 
  command <options> <source> <destination>   - Left to right execution 
 
----> 005.MAN PAGE ~~~~~
+---> 005. MAN PAGE REFERENCE 
 
  man <command>
 
