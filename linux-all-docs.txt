@@ -19,17 +19,17 @@
 
 ---> 002. LINUX DIRECTORIES ~~~~~
  
- 01. /bin	    -  Essential system binaries
- 02. /sbin	-  System administration binaries
+ 01. /bin     -  Essential system binaries
+ 02. /sbin    -  System administration binaries
  03. /usr     -  User-related programs, libraries
- 04. /etc   	-  Configuration files for system and application programs
- 05. /var	    -  Variable data like log files
- 06. /tmp	    -  Temporary file storage by the system
- 07. /boot	-  Files needed for the system to boot
- 08. /proc 	-  Virtual file system that provides information about the system
+ 04. /etc     -  Configuration files for system and application programs
+ 05. /var     -  Variable data like log files
+ 06. /tmp     -  Temporary file storage by the system
+ 07. /boot    -  Files needed for the system to boot
+ 08. /proc    -  Virtual file system that provides information about the system
  09. /home    -  User home directories
  10. /root    -  Root's directory
- 11. /mnt 	-  Mounting file systems, such as external hard drives
+ 11. /mnt     -  Mounting file systems, such as external hard drives
  12. /media   -  Mount point for removable media devices
  13. /dev     -  Device files that represent physical and virtual devices
  14. /opt     -  Installing third-party software applications
