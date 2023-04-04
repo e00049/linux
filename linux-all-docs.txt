@@ -5,11 +5,11 @@
  It was created as an alternative to proprietary operating systems like Windows and macOS, and quickly gained 
  popularity among developers and system administrators for its flexibility, security, and stability.
 
----> 001. LINUX DISTRIBUTIONS ~~~~
----> 002. LINUX DIRECTORIES ~~~~~
----> 003. NAVIGATION METHODS ~~~~~
----> 004. COMMAND EXECUTION FLOW ~~~~~
----> 005.MAN PAGE ~~~~~
+---> 001. LINUX DISTRIBUTIONS 
+---> 002. LINUX DIRECTORIES 
+---> 003. NAVIGATION METHODS 
+---> 004. COMMAND EXECUTION FLOW 
+---> 005. MAN PAGE REFERENCE 
 
 -------------------------------------------------------------------------------------------------------
 
