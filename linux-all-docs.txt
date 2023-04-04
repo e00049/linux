@@ -1,88 +1,91 @@
 
 ---> LINUX KERNEL ~~~~
 
-    Linux is an open-source, Unix-like operating system that was first released by Linus Torvalds in 1991. 
-    It was created as an alternative to proprietary operating systems like Windows and macOS, and quickly gained 
-    popularity among developers and system administrators for its flexibility, security, and stability.
+ Linux is an open-source, Unix-like operating system that was first released by Linus Torvalds in 1991. 
+ It was created as an alternative to proprietary operating systems like Windows and macOS, and quickly gained 
+ popularity among developers and system administrators for its flexibility, security, and stability.
 
 
 ---> 001. LINUX DISTRIBUTIONS ~~~~
-    Debian-based distributions     - .deb    -  Ubuntu, Linux Mint, and Debian itself.
-    Red Hat-based distributions    - .rpm    -  CentOS, Fedora, and Red Hat Enterprise Linux (RHEL).
-    Arch-based distributions       - Pacman  -  Arch Linux itself, Manjaro, and EndeavourOS.  
-    Gentoo-based distributions     - Portage -  Gentoo itself, Sabayon, and Funtoo. 
-    Slackware-based distributions  - .tgz    -  Slackware itself, Zenwalk, and Absolute Linux.
-    SUSE-based distributions       - .rpm    -  openSUSE, SUSE Linux Enterprise, and Leap.
-    Independent distributions      - own pkg -  Solus, Puppy Linux, and Gentoox.
+ 
+ Debian-based distributions     - .deb    -  Ubuntu, Linux Mint, and Debian itself.
+ Red Hat-based distributions    - .rpm    -  CentOS, Fedora, and Red Hat Enterprise Linux (RHEL).
+ Arch-based distributions       - Pacman  -  Arch Linux itself, Manjaro, and EndeavourOS.  
+ Gentoo-based distributions     - Portage -  Gentoo itself, Sabayon, and Funtoo. 
+ Slackware-based distributions  - .tgz    -  Slackware itself, Zenwalk, and Absolute Linux.
+ SUSE-based distributions       - .rpm    -  openSUSE, SUSE Linux Enterprise, and Leap.
+ Independent distributions      - own pkg -  Solus, Puppy Linux, and Gentoox.
 
 
 ---> 002. LINUX DIRECTORIES ~~~~~
-   01. /bin	    -  Essential system binaries
-   02. /sbin	-  System administration binaries
-   03. /usr     -  User-related programs, libraries
-   04. /etc   	-  Configuration files for system and application programs
-   05. /var	    -  Variable data like log files
-   06. /tmp	    -  Temporary file storage by the system
-   07. /boot	-  Files needed for the system to boot
-   08. /proc 	-  Virtual file system that provides information about the system
-   09. /home    -  User home directories
-   10. /root    -  Root's directory
-   11. /mnt 	-  Mounting file systems, such as external hard drives
-   12. /media   -  Mount point for removable media devices
-   13. /dev     -  Device files that represent physical and virtual devices
-   14. /opt     -  Installing third-party software applications
+ 
+ 01. /bin	    -  Essential system binaries
+ 02. /sbin	-  System administration binaries
+ 03. /usr     -  User-related programs, libraries
+ 04. /etc   	-  Configuration files for system and application programs
+ 05. /var	    -  Variable data like log files
+ 06. /tmp	    -  Temporary file storage by the system
+ 07. /boot	-  Files needed for the system to boot
+ 08. /proc 	-  Virtual file system that provides information about the system
+ 09. /home    -  User home directories
+ 10. /root    -  Root's directory
+ 11. /mnt 	-  Mounting file systems, such as external hard drives
+ 12. /media   -  Mount point for removable media devices
+ 13. /dev     -  Device files that represent physical and virtual devices
+ 14. /opt     -  Installing third-party software applications
      
 ---> 003. NAVIGATION METHODS ~~~~~
-     An absolute path - "/home/user/documents/projects/report.txt"
-     A relative path  - cd /home; cd user/; cd documents/; cd projects; 
+ 
+ An absolute path - "/home/user/documents/projects/report.txt"
+ A relative path  - cd /home; cd user/; cd documents/; cd projects; 
 	  
 ---> 004. COMMAND EXECUTION FLOW ~~~~~
-	 command <options> <source> <destination>   - Left to right execution 
+
+ command <options> <source> <destination>   - Left to right execution 
 
 ---> 005.MAN PAGE ~~~~~
-     man <command>
+ man <command>
 
 ----------------------------------------------------------------------------------
 
 Linux commands can be classified into 6 categories:
 
-	001. File Handling
-	002. User Management
-	003. Storage Handling
-	004. Network Handling 
-	005. Process Handling
-	006. Resources Handling
+ 001. File Handling Commands
+ 002. User Management Commands
+ 003. Storage Handling Commands
+ 004. Network Handling Commands
+ 005. Process Handling Commands
+ 006. Resources Handling Commands
 
 
 ---> 001. Linux file Handling commands: ~~~ 
 
-01. touch    - That allows you to update the access and modification times of files or create new empty files.
-02. cat      - cat is a command-line utility that is used to concatenate and display the contents of files.
-03. head     - To display the first few lines of a file. The name "head" refers to the head (i.e., beginning) of a file.
-04. tail     - Display the last few lines of a file. The name "tail" refers to the tail (i.e., end) of a file.
-05. less     - less is a command-line utility that is used to view the contents of a file in a paginated format.
-06. more     - To view the contents of a file one screen at a time. It is similar to less, but with fewer features.
-07. mkdir    - mkdir is a command-line utility that is used to create a new directory (or folder) in the file system. 
-08. cd       - cd is a command-line utility that is used to change the current working directory.
-09. pwd      - pwd is a command-line utility that is used to print the current working directory.
-10. ls       - ls is a command-line utility that is used to list the contents of a directory.
-11. stat     - stat is a command-line utility that is used to display detailed information about a file or file system.
-12. rm       - rm is a command-line utility that is used to remove files or directories.
-13. awk      - To process and manipulate data and produce formatted reports. 
-14. cut      - To cut out sections of a specified file or piped data and print the result to std output.
-15. sed      - Searching, edit and manipulate text files, find and replace, insertion or deletion.
-16. grep     - To search for matching patterns in a file. grep is short for "global regular expression print".
-17. file     - File command is used to determine the type of a file. 
-18. cp       - cp is a command-line utility that is used to copy files and directories from one location to another.
-19. mv       - Move or Rename the files or directories. 
-20. tar      - Archiving utility. It helps create, extract, and list archive contents.
-21. ln       - Create Soft Link and Hard Links
-22. find     - Find files and directories based on conditions
-23. locate   - Used to search for files and directories based on their names or other attributes.
-24. wc       - Count a file's word, line, character, or byte count.
-25. tee      - Reads standard input, then writes the output of a program to std output and file or files. 
-26. echo     - Command-line utility that is used to display messages or values of variables on the terminal or in a file.
-
+ 01. touch    - That allows you to update the access and modification times of files or create new empty files.
+ 02. cat      - cat is a command-line utility that is used to concatenate and display the contents of files.
+ 03. head     - To display the first few lines of a file. The name "head" refers to the head (i.e., beginning) of a file.
+ 04. tail     - Display the last few lines of a file. The name "tail" refers to the tail (i.e., end) of a file.
+ 05. less     - less is a command-line utility that is used to view the contents of a file in a paginated format.
+ 06. more     - To view the contents of a file one screen at a time. It is similar to less, but with fewer features.
+ 07. mkdir    - mkdir is a command-line utility that is used to create a new directory (or folder) in the file system. 
+ 08. cd       - cd is a command-line utility that is used to change the current working directory.
+ 09. pwd      - pwd is a command-line utility that is used to print the current working directory.
+ 10. ls       - ls is a command-line utility that is used to list the contents of a directory.
+ 11. stat     - stat is a command-line utility that is used to display detailed information about a file or file system.
+ 12. rm       - rm is a command-line utility that is used to remove files or directories.
+ 13. awk      - To process and manipulate data and produce formatted reports. 
+ 14. cut      - To cut out sections of a specified file or piped data and print the result to std output.
+ 15. sed      - Searching, edit and manipulate text files, find and replace, insertion or deletion.
+ 16. grep     - To search for matching patterns in a file. grep is short for "global regular expression print".
+ 17. file     - File command is used to determine the type of a file. 
+ 18. cp       - cp is a command-line utility that is used to copy files and directories from one location to another.
+ 19. mv       - Move or Rename the files or directories. 
+ 20. tar      - Archiving utility. It helps create, extract, and list archive contents.
+ 21. ln       - Create Soft Link and Hard Links
+ 22. find     - Find files and directories based on conditions
+ 23. locate   - Used to search for files and directories based on their names or other attributes.
+ 24. wc       - Count a file's word, line, character, or byte count.
+ 25. tee      - Reads standard input, then writes the output of a program to std output and file or files. 
+ 26. echo     - Command-line utility that is used to display messages or values of variables on the terminal or in a file.
 
 ---> 002. User Management commands: ~~~
 
