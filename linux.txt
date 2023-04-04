@@ -1,27 +1,29 @@
-Linux is a family of open-source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991, by Linus Torvalds.
+Linux is a family of open-source Unix-like operating systems based on the Linux kernel, 
+an operating system kernel first released on September 17, 1991, by Linus Torvalds.
 
+*******************************************************************************
 
-1. Linux distributions
+001. Linux distributions
 	i.  *.deb
 	     ubuntu, mint, kubuntu 
 	ii. *.rpm
          redhat, centos, fedora    
 	
-2. Linux Directories
+002. Linux Directories
    /bin		-  essential system binaries
    /sbin	-  system administration binaries
-   /usr     -  user-related programs, libraries
+   /usr         -  user-related programs, libraries
    /etc		-  configuration files for system and application programs
    /var		-  variable data like log files
    /tmp		-  temporary file storage by the system
    /boot	-  files needed for the system to boot
    /proc 	-  virtual file system that provides information about the system and processes running on it
-   /home    -  user home directories
-   /root    -  root's directory
+   /home        -  user home directories
+   /root        -  root's directory
    /mnt 	-  mounting file systems, such as external hard drives
-   /media   -  mount point for removable media devices
-   /dev     -  device files that represent physical and virtual devices
-   /opt     -  installing third-party software applications
+   /media       -  mount point for removable media devices
+   /dev         -  device files that represent physical and virtual devices
+   /opt         -  installing third-party software applications
      
 3. Navigation methods
      An absolute path - "/home/user/documents/projects/report.txt"
@@ -33,15 +35,71 @@ Linux is a family of open-source Unix-like operating systems based on the Linux 
 5. Man page
    man <command>
 
-------------------------------------------------------------------------------------
+**********************************************************************
 
 Linux commands can be classified into 6 categories:
 
 1. File Handling
-2. User Handling
-3. storage Handling
+2. User Management
+3. Storage Handling
 4. Network Handling 
 5. Process Handling
 6. Kernal Handling
 
------------------------------------------------------------------------------------
+**********************************************************************
+
+001. Linux file handling commands: 
+
+01. touch    - To create new file.
+02. cat      - View the content of the file.
+03. head     - By default view first 10 lines of file.
+04. tail     - By default view last 10 lines of file.
+05. less     - Used for filtering and viewing text files one screen page at a time.
+06. more     - Allows us to view them as a single file separated by lines
+07. mkdir    - Make dictory. 
+08. cd       - Change the dictory.
+09. pwd      - Print working dictory.
+10. ls       - List of files and directories.
+11. stat     - About file and directories.
+12. rm       - Remove files or directories.
+13. awk      - To process and manipulate data and produce formatted reports. 
+14. cut      - To cut out sections of a specified file or piped data and print the result to std output.
+15. sed      - Searching, find and replace, insertion or deletion.
+16. grep     - To search for matching patterns in a file. grep is short for "global regular expression print".
+17. file     - File command is used to determine the type of a file. 
+18. cp       - Copying files from one location to another.
+19. mv       - Move or Rename the files or directories.
+20. tar      - Archiving utility. It helps create, extract, and list archive contents.
+21. ln       - Create Soft Link and Hard Links
+22. find     - Find files and directories based on conditions
+23. locate   - Locate files exact location with absolute path
+24. wc       - Count a file's word, line, character, or byte count.
+25. tee      - Reads standard input, then writes the output of a program to std output and file or files. 
+
+************************************************************************************************************
+
+
+ 002. User Management in Linux
+
+01. w          - List out logged in users.
+02. whoami     - Who am i.
+03. id         - User's ID and blong groups.
+04. last       - Users who have previously logged.
+05. su         - Switch User.
+06. useradd    - Create new User.
+07. usermod    - Modify the User.
+08. userdel    - Delete User.
+09. groupadd   - Create New group.
+10. groupmod   - Modifty the group.
+11. delgroup   - Delete group.
+12. chown      - Change owner and group.
+13. chmod      - Set permission.
+14. umask      - Check umask value.
+15. getfacl    - Get file name, owner, the group, and the ACL.
+16. setfacl    - Sets modifies, or removes the ACL to regular files and directories
+17. passwd     - Password change.
+18. chage      - Change user password expiry information.
+19. sudo       - Su "do".
+20. finger     - Gives information on all logged in user.
+
+***********************************************************************************************************
