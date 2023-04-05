@@ -26,16 +26,16 @@
 
 ---> 002. LINUX DIRECTORIES 
  
- 01. /bin     -  Essential system binaries
- 02. /sbin    -  System administration binaries
- 03. /usr     -  User-related programs, libraries
- 04. /etc     -  Configuration files for system and application programs
- 05. /var     -  Variable data like log files
+ 01. /bin     -  bin, contains binary executable files. These are files that can be executed by the Linux operating system
+ 02. /sbin    -  sbin, directory contains system binaries that are used by the Linux operating system
+ 03. /usr     -  usr, directory contains the majority of the Linux operating system files, including user programs and libraries.
+ 04. /etc     -  etc contains configuration files for the Linux operating system and applications.
+ 05. /var     -  Variable data files, such as logs and temporary files
  06. /tmp     -  Temporary file storage by the system
- 07. /boot    -  Files needed for the system to boot
- 08. /proc    -  Virtual file system that provides information about the system
- 09. /home    -  User home directories
- 10. /root    -  Root's directory
+ 07. /boot    -  Files needed to boot the Linux operating system. These files include the Linux kernel and bootloader.
+ 08. /proc    -  Contains information about processes running on the Linux operating system.
+ 09. /home    -  This directory contains the home directories of users. Each user has their own subdirectory under /home.
+ 10. /root    -  This directory is the home directory of the root user.
  11. /mnt     -  Mounting file systems, such as external hard drives
  12. /media   -  Mount point for removable media devices
  13. /dev     -  Device files that represent physical and virtual devices
