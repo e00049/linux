@@ -144,7 +144,7 @@ Linux commands can be classified into 6 categories:
 17. swapoff     - Command in Linux used to deactivate swap space on a system. 
 18. sestatus    - To get SELinux Status.
 19. getenforce  - Command in Linux used to check the current SELinux mode. 
-20. setenforce  -  Used to change the current SELinux mode.
+20. setenforce  - Used to change the current SELinux mode.
 
  ---> 004: Network Handling Commands in Linux <---
 
