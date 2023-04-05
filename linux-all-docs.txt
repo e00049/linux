@@ -1,5 +1,5 @@
 
----> LINUX KERNEL ~~~~
+---> LINUX KERNEL 
 
  Linux is an open-source, Unix-like operating system that was first released by Linus Torvalds in 1991. 
  It was created as an alternative to proprietary operating systems like Windows and macOS, and quickly gained 
@@ -54,7 +54,7 @@
 
  man <command>
 
-----------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
 
 Linux commands can be classified into 6 categories:
 
@@ -66,7 +66,7 @@ Linux commands can be classified into 6 categories:
  006. Resources Handling Commands
 
 
----> 001. Linux file Handling commands: ~~~ 
+---> 001. Linux file Handling commands in Linux <---
 
  01. touch    - That allows you to update the access and modification times of files or create new empty files.
  02. cat      - cat is a command-line utility that is used to concatenate and display the contents of files.
@@ -95,7 +95,7 @@ Linux commands can be classified into 6 categories:
  25. tee      - Reads standard input, then writes the output of a program to std output and file or files. 
  26. echo     - Command-line utility that is used to display messages or values of variables on the terminal or in a file.
 
----> 002. User Management commands: ~~~
+---> 002. User Management commands in Linux <---
 
 01. w          - Shows information about the currently logged-in users and their processes.
 02. whoami     - Username of the current user in the terminal. the user who is currently logged in to the system.
@@ -118,8 +118,7 @@ Linux commands can be classified into 6 categories:
 19. sudo       - Allows a user to execute commands with the privileges of another user, usually the root user. 
 20. finger     - Used to display information about a user or a group of users on the system.
 
-
- ---> 003: Storage Handling Commands in Linux: 
+ ---> 003: Storage Handling Commands in Linux <---
 
 01. du (disk usage)  -  To display the disk usage of a directory.          
 02. df (disk free)   -  To display the amount of free space on the disk.
@@ -142,8 +141,7 @@ Linux commands can be classified into 6 categories:
 19. getenforce       -  Command in Linux used to check the current SELinux mode. 
 20. setenforce       -  Used to change the current SELinux mode.
 
-
- ---> 004: Network Handling Commands in Linux:
+ ---> 004: Network Handling Commands in Linux <---
 
 01. ip          - Command displays the current network interfaces and their associated IP addresses.
 02. ping        - It is used to test the connectivity between two hosts on a network.
@@ -166,7 +164,6 @@ Linux commands can be classified into 6 categories:
 19. traceroute  - Trace the path that a packet takes from a source device to a destination device over a network.
 20. tracepath   - Discover the route a packet takes to reach a network host or server.
 
-
  ---> 005: Process Handling Commands in Linux:
 
 01. ps          - Display information about currently running processes on the system.
@@ -181,7 +178,7 @@ Linux commands can be classified into 6 categories:
 10. sleep       - To pause the execution of a shell script or a command for a specified amount of time. 
 11. nohup       - Execute a command or script in the bg and disconnect from the terminal without terminating the process. 
 12. at          - that allows users to schedule the execution of a command or script at a specified time in the future.
-13. exec
+13. exec        - In Linux, exec is a command that is used to replace the current process image with a new process image.
 
 --->  006: Resource Handling commands in Linux:
 
@@ -212,4 +209,3 @@ Linux commands can be classified into 6 categories:
 25. init        - Critical process that plays a vital role in managing the Linux system's startup, ongoing operation.
 26. runlevel    - The command to check the current run level in a Linux system depends on the init system being used.
 
----------------------------------------------------------------------------------------------------------------------------
