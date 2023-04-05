@@ -40,15 +40,16 @@
  12. /media   -  Mount point for removable media devices
  13. /dev     -  Device files that represent physical and virtual devices
  14. /opt     -  Installing third-party software applications
+ 15. /lib     -  This directory contains shared libraries that are used by the Linux operating system and applications.
      
 ---> 003. NAVIGATION METHODS 
  
  An absolute path - "/home/user/documents/projects/report.txt"
- A relative path  - cd /home; cd user/; cd documents/; cd projects; 
+ A relative path  - "cd /home; cd user/; cd documents/; cd projects" 
 	  
 ---> 004. COMMAND EXECUTION FLOW 
 
- command <options> <source> <destination>   - Left to right execution 
+ command <options> <source> <destination>   - Left to Right execution 
 
 ---> 005. MAN PAGE REFERENCE 
 
