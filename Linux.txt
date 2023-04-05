@@ -164,7 +164,7 @@ Linux commands can be classified into 6 categories:
 19. traceroute  - Trace the path that a packet takes from a source device to a destination device over a network.
 20. tracepath   - Discover the route a packet takes to reach a network host or server.
 
- ---> 005: Process Handling Commands in Linux:
+ ---> 005: Process Handling Commands in Linux <---
 
 01. ps          - Display information about currently running processes on the system.
 02. top         - For system administrators and developers who need to monitor the performance of a Linux system.
@@ -182,7 +182,7 @@ Linux commands can be classified into 6 categories:
 14. jobs        - In Linux, the jobs command is used to display a list of all jobs that are currently running in the background or stopped.
 15. watch       - the watch command is used to execute a command or a shell script periodically at a specified interval and display the output on the terminal screen.
 
---->  006: Resource Handling commands in Linux:
+--->  006: Resource Handling commands in Linux <---
 
 01. alias       - In Linux, the alias command is used to create a shorthand name for a command or a series of commands.
 02. history     - Command is used to display a list of previously executed commands in the current shell session. 
