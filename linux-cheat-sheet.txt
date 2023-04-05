@@ -5,6 +5,8 @@
  It was created as an alternative to proprietary operating systems like Windows and macOS, and quickly gained 
  popularity among developers and system administrators for its flexibility, security, and stability.
 
+ It interacts with hardware for doing our tasks.  User - Terminal - Linux Kernel - Hardware 
+  
 ---> 001. LINUX DISTRIBUTIONS 
 ---> 002. LINUX DIRECTORIES 
 ---> 003. NAVIGATION METHODS 
