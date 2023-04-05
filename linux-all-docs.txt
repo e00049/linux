@@ -179,6 +179,8 @@ Linux commands can be classified into 6 categories:
 11. nohup       - Execute a command or script in the bg and disconnect from the terminal without terminating the process. 
 12. at          - that allows users to schedule the execution of a command or script at a specified time in the future.
 13. exec        - In Linux, exec is a command that is used to replace the current process image with a new process image.
+14. jobs        - In Linux, the jobs command is used to display a list of all jobs that are currently running in the background or stopped.
+15. watch       - the watch command is used to execute a command or a shell script periodically at a specified interval and display the output on the terminal screen.
 
 --->  006: Resource Handling commands in Linux:
 
