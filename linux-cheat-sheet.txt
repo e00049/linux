@@ -43,17 +43,21 @@
  15. /lib     -  This directory contains shared libraries that are used by the Linux operating system and applications.
      
 ---> 003. NAVIGATION METHODS 
- 
- An absolute path - "/home/user/documents/projects/report.txt"
- A relative path  - "cd /home; cd user/; cd documents/; cd projects" 
+  
+ An absolute path - " $ cat /home/e00049/documents/projects/report.txt "
+ A relative path  - " $ cd /home
+                     [ /home ] $ cd e00049/
+		     [ /home/e00049 ] $ cd documents/
+		     [ /home/e00049/documents ] $ cd projects/
+		     [ /home/e00049/documents/projects ] $ cat report.txt " 
 	  
 ---> 004. COMMAND EXECUTION FLOW 
 
- command <options> <source> <destination>   - Left to Right execution 
+ $ command <options> <source> <destination>   - Left to Right Execution Flow  
 
 ---> 005. MAN PAGE REFERENCE 
 
- man <command>
+ $ man <linux-command>
 
 ---------------------------------------------------------------------------------------
 
