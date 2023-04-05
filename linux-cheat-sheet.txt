@@ -46,10 +46,10 @@
   
  An absolute path - " $ cat /home/e00049/documents/projects/report.txt "
  A relative path  - " $ cd /home
-                     [ /home ] $ cd e00049/
-		     [ /home/e00049 ] $ cd documents/
-		     [ /home/e00049/documents ] $ cd projects/
-		     [ /home/e00049/documents/projects ] $ cat report.txt " 
+                     [ /home ]$ cd e00049/
+		     [ /home/e00049 ]$ cd documents/
+		     [ /home/e00049/documents ]$ cd projects/
+		     [ /home/e00049/documents/projects ]$ cat report.txt " 
 	  
 ---> 004. COMMAND EXECUTION FLOW 
 
