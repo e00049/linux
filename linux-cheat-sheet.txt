@@ -174,18 +174,26 @@ Linux commands can be classified into 6 categories:
 01. ps          - Display information about currently running processes on the system.
 02. top         - For system administrators and developers who need to monitor the performance of a Linux system.
 03. kill        - The kill command in Linux is used to terminate a running process by sending it a signal. 
-04. nice        - To adjust the priority of a process. The priority level is ranging from -20 to 19. 0 default priority.
-05. fg          - The fg command in Linux is used to bring a background process to the foreground.
-06. bg          - The bg command in Linux is used to send a suspended or stopped process to run in the background. 
-07. systemctl   - Linux used to manage the systemd system and service manager.
-08. env         - Display the current environment variables or run a command in a modified environment.
-09. cron        - Daemon runs continuously in the bg and can be configured to execute tasks at any desired frequency.
-10. sleep       - To pause the execution of a shell script or a command for a specified amount of time. 
-11. nohup       - Execute a command or script in the bg and disconnect from the terminal without terminating the process. 
-12. at          - that allows users to schedule the execution of a command or script at a specified time in the future.
-13. exec        - In Linux, exec is a command that is used to replace the current process image with a new process image.
-14. jobs        - In Linux, the jobs command is used to display a list of all jobs that are currently running in the background or stopped.
-15. watch       - Used to execute a command or a shell script periodically at a specified interval and display the output on the terminal screen.
+04. killall     - The killall command is used to terminate all processes with a specified name.
+05. nice        - To adjust the priority of a process. The priority level is ranging from -20 to 19. 0 default priority.
+06. renice      - The renice command is used to change the priority of a running process.
+07. fg          - The fg command in Linux is used to bring a background process to the foreground.
+08. bg          - The bg command in Linux is used to send a suspended or stopped process to run in the background. 
+09. systemctl   - Linux used to manage the systemd system and service manager.
+10. env         - Display the current environment variables or run a command in a modified environment.
+11. cron        - Daemon runs continuously in the bg and can be configured to execute tasks at any desired frequency.
+12. sleep       - To pause the execution of a shell script or a command for a specified amount of time. 
+13. nohup       - Execute a command or script in the bg and disconnect from the terminal without terminating the process. 
+14. at          - that allows users to schedule the execution of a command or script at a specified time in the future.
+15. exec        - In Linux, exec is a command that is used to replace the current process image with a new process image.
+16. jobs        - In Linux, the jobs command is used to display a list of all jobs that are currently running in the background or stopped.
+17. watch       - Used to execute a command or a shell script periodically at a specified interval and display the output on the terminal screen.
+18. export      - In Linux, the export command is used to set environment variables.
+19. unset       - In Linux, the unset command is used to remove an environment variable or function.
+20. screen      - Allows you to create and manage multiple terminal sessions within a single terminal window or remote shell session. 
+21. banner      - command is used to create large, banner-style text that can be printed to the console or redirected to a file.
+22. pgrep       - The pgrep command is used to search for processes that match a specified pattern and return their PIDs.
+
 
 --->  006: Resource Handling commands in Linux <---
 
