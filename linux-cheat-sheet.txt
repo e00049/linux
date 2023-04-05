@@ -125,26 +125,26 @@ Linux commands can be classified into 6 categories:
 
  ---> 003: Storage Handling Commands in Linux <---
 
-01. du (disk usage)  -  To display the disk usage of a directory.          
-02. df (disk free)   -  To display the amount of free space on the disk.
-03. mount            -  Mount a file system to a specified directory in the file system hierarchy. 
-04. umount           -  Mounted a file system umount from file hierarchy.
-05. fdisk            -  Linux is a tool used for disk partitioning.
-06. lsblk            -  List all the available block devices on the system.
-07. blkid            -  Identifying the unique identifiers and file system types of block devices.
-08. mkfs             -  Create a file system on a given block device or partition. 
-09. parted           -  For partitioning hard disks. 
-10. pvdisplay        -  Display detailed information about physical volumes (PVs) on the system.
-11. vgdisplay        -  Detailed information about volume groups (VGs) on the system. 
-12. lvdisplay        -  Detailed information about logical volumes (LVs) on the system.
-13. vgextend         -  Linux used to extend a volume group (VG).
-14. lvextend         -  Used to extend the size of a logical volume (LV) in a Linux LVM system.
-15. findmnt          -  File system mounted at the mount point.
-16. swapon           -  Command in Linux used to activate swap space on a system. 
-17. swapoff          -  Command in Linux used to deactivate swap space on a system. 
-18. sestatus         -  To get SELinux Status.
-19. getenforce       -  Command in Linux used to check the current SELinux mode. 
-20. setenforce       -  Used to change the current SELinux mode.
+01. du           -  disk usage - to display the disk usage of a directory.          
+02. df           -  Disk free - to display the amount of free space on the disk.
+03. mount        -  Mount a file system to a specified directory in the file system hierarchy. 
+04. umount       -  Mounted a file system umount from file hierarchy.
+05. fdisk        -  Linux is a tool used for disk partitioning.
+06. lsblk        -  List all the available block devices on the system.
+07. blkid        -  Identifying the unique identifiers and file system types of block devices.
+08. mkfs         -  Create a file system on a given block device or partition. 
+09. parted       -  For partitioning hard disks. 
+10. pvdisplay    -  Display detailed information about physical volumes (PVs) on the system.
+11. vgdisplay    -  Detailed information about volume groups (VGs) on the system. 
+12. lvdisplay    -  Detailed information about logical volumes (LVs) on the system.
+13. vgextend     -  Linux used to extend a volume group (VG).
+14. lvextend     -  Used to extend the size of a logical volume (LV) in a Linux LVM system.
+15. findmnt      -  File system mounted at the mount point.
+16. swapon       -  Command in Linux used to activate swap space on a system. 
+17. swapoff      -  Command in Linux used to deactivate swap space on a system. 
+18. sestatus     -  To get SELinux Status.
+19. getenforce   -  Command in Linux used to check the current SELinux mode. 
+20. setenforce   -  Used to change the current SELinux mode.
 
  ---> 004: Network Handling Commands in Linux <---
 
