@@ -1,0 +1,2 @@
+kill        - The kill command in Linux is used to terminate a running process by sending it a signal. 
+
