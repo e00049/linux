@@ -8,7 +8,7 @@
 
 #!/usr/bin/env bash
 
-sudo useradd -s /bin/bash -d /home/e00049 -m -G sudo e00049
+sudo useradd -s /bin/bash -d /home/e00049 -m e00049
 sudo echo -e "z\nz" | passwd e00049 > /dev/null 2>&1
 echo "e00049 ALL=(ALL)      NOPASSWD: ALL" >> /etc/sudoers
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
