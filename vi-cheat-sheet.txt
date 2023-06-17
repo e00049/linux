@@ -1,0 +1,37 @@
+Copy, Past and Delete Lines:
+  dd   - delete line 
+  5dd  - delete 5 lines
+  yy   - copy line
+  5yy  - copy 5 lines
+  p    - Past the content
+  
+Copy, Past and Delete Letter, Words:
+  x    - delete single letter
+  5x   - 5 letters delete
+  dw   - Single Word Delete 
+  2dw  - 2 Words delete
+
+Jump Words and Line:
+  b  - Begging of the word
+  e  - End of the word
+  I  - Insert text at the beginning of the current line
+  i  - Insert text from current line
+  G  - End of the document 
+  gg - Begging of the Document
+  5G  -Fifth Line 
+  :set number - To set number in file
+  
+Line By Line and Word by word:
+  home        - begging of the line
+  end         - end of the line 
+  ctrl + ->   - Jump Word by Word left to Right
+  ctrl + <-   - Jump word by word Right to left 
+  
+Undo and redo:
+  u           - Undo
+  ctrl + r    - redo
+  
+Intersert: 
+  o   - Insert below the current line
+  O   - Insert Above the current line
+  
