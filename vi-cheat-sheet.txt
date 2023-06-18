@@ -35,3 +35,5 @@ Intersert:
   o   - Insert below the current line
   O   - Insert Above the current line
   
+Files Modifications:
+  :12,35w smallfile<Return>	
