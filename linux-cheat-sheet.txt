@@ -125,6 +125,7 @@ Linux commands can be classified into 6 categories:
 18. chage      - The chage command in Linux is used to change the password expiry information for a user account.
 19. sudo       - Allows a user to execute commands with the privileges of another user, usually the root user. 
 20. finger     - Used to display information about a user or a group of users on the system.
+21. chpasswd   - Used to change passwords for user accounts in bulk using a text file or through standard input. 
 
  ---> 003: Storage Handling Commands in Linux <---
 
