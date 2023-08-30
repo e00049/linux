@@ -14,3 +14,18 @@ echo "e00049 ALL=(ALL)      NOPASSWD: ALL" >> /etc/sudoers
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
 sed -i 's/PermitRootLogin forced-commands-only/#PermitRootLogin forced-commands-only/g' /etc/ssh/sshd_config
 systemctl restart sshd >/dev/null 2>&1
+
+# check file whether 
+#!/bin/bash
+
+files_to_check=( 'file1.txt' 'file2.txt' 'file3.txt')
+
+remote_user="e00049"
+remote_host="192.168.1.1"
+remote_directory="/home/e00049/"
+
+for file in "${files_to_check[@]}"; do
+    ssh "$remote_user@$remote_host" "[ -f '$remote_directory/$file' ]" && \
+        echo "File '$file' exists on remote machine." || \
+        echo "File '$file' does not exist on remote machine."
+done
