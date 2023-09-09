@@ -227,4 +227,4 @@ Linux commands can be classified into 6 categories:
 24. localectl   - Linux systems to control and query the system's locale and keyboard configuration.
 25. init        - Critical process that plays a vital role in managing the Linux system's startup, ongoing operation.
 26. runlevel    - The command to check the current run level in a Linux system depends on the init system being used.
-27. unaliase    - Removes the definition for each alias name specified, or removes all alias definitions if the -a flag is used. 
+27. unalias    - Removes the definition for each alias name specified, or removes all alias definitions if the -a flag is used. 
