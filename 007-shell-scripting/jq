@@ -1,0 +1,3 @@
+Filter details from list of dict using jq
+
+  curl -X 'GET' 'http://192.168.1.2:8000/api/student-profile/' -H 'accept: application/json' -H 'X-CSRFToken: 6we7MEmAA' | jq '.[].personalDetailPKID'
