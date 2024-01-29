@@ -102,6 +102,7 @@ Linux commands can be classified into 6 categories:
  25. tee      - Reads standard input, then writes the output of a program to std output and file or files. 
  26. echo     - Command-line utility that is used to display messages or values of variables on the terminal or in a file.
  27. tr       - For translating or deleting characters. 
+ 28. readlink - To retrieve the canonicalized absolute pathname of a specified file name
 
 ---> 002. User Management commands in Linux <---
 
