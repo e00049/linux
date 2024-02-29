@@ -29,3 +29,5 @@ for file in "${files_to_check[@]}"; do
         echo "File '$file' exists on remote machine." || \
         echo "File '$file' does not exist on remote machine."
 done
+
+grep -Po '^\s*minclass\s*=\s*\K\d+' /etc/security/pwquality.conf
