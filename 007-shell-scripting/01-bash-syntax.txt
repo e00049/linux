@@ -31,3 +31,7 @@ for file in "${files_to_check[@]}"; do
 done
 
 grep -Po '^\s*minclass\s*=\s*\K\d+' /etc/security/pwquality.conf
+
+systemctl is-enabled rsyncd.service 2>/dev/null | grep 'enabled'
+
+
