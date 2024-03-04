@@ -34,4 +34,9 @@ grep -Po '^\s*minclass\s*=\s*\K\d+' /etc/security/pwquality.conf
 
 systemctl is-enabled rsyncd.service 2>/dev/null | grep 'enabled'
 
+while IFS: read name uid _: do 
+   echo "user name $name and UID $uid" 
+done < /etc/passwd
+
+
 
