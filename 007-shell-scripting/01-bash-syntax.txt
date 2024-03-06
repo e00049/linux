@@ -38,5 +38,13 @@ while IFS: read name uid _: do
    echo "user name $name and UID $uid" 
 done < /etc/passwd
 
+-f - File exists or not
+-d - Directory exists or not
+-r - Is file readable
+-w - Is file writable
+-x - Is file excutable
+-s - file empty or not
+-L - symbolic link
+-S - file is socket or not
 
 
