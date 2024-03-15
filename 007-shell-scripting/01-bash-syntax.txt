@@ -46,5 +46,5 @@ done < /etc/passwd
 -s - file empty or not
 -L - symbolic link
 -S - file is socket or not
-
+-z - file is empty 
 
