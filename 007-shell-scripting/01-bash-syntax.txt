@@ -48,3 +48,11 @@ done < /etc/passwd
 -S - file is socket or not
 -z - file is empty 
 
+
+-eq: Equal to
+-ne: Not equal to
+-lt: Less than
+-le: Less than or equal to
+-gt: Greater than
+-ge: Greater than or equal to
+
