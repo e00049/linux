@@ -32,7 +32,6 @@ done
 
 systemctl restart ssh
 
-
 # check file whether 
 #!/bin/bash
 
